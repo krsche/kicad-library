@@ -24,3 +24,4 @@ I'm happy about any PRs, Fork, etc. but please keep the following in mind if you
   - Commit messages
   - Generating Releases (semantic-versioning)
   - Running checks similar to KiCad's orig footprint/symbol library check pipelines
+  - KiBot tests (via kicad-template repo?)
