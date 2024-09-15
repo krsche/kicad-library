@@ -1,0 +1,225 @@
+(footprint "Diodes_X2-DFN2015-3 "
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "X2 DFN package size 2015 3 pins")
+	(tags "X2 DFN package size 2015 3pin Diodes Incorporated")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "a239fd1d-dfbb-49fd-b565-8c3de9dcf42b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diodes_X2-DFN2015-3 "
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "d32956af-146b-4a09-a053-d9d64b8dd86d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12dea5f3-1358-4e28-b405-680d60abb56e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74b644fe-96f1-4356-9d31-d6f82468787b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "253048f3-e216-44d7-b407-749f4f1108a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.9)
+		(end -1.3 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c2e4fa1-3b2b-4770-abbb-199487ad6f89")
+	)
+	(fp_line
+		(start -0.8 -0.9)
+		(end -1.3 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "524ba18c-4812-4689-ad60-024d6c257d3c")
+	)
+	(fp_line
+		(start -1.4 -1)
+		(end 1.4 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdad0547-27a5-4b26-894c-be93436ed425")
+	)
+	(fp_line
+		(start -1.4 1)
+		(end -1.4 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1895a04b-8086-4edb-a601-95c20f72d637")
+	)
+	(fp_line
+		(start 1.4 -1)
+		(end 1.4 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5eba4ffe-5660-4d45-b014-5856c61e8e8b")
+	)
+	(fp_line
+		(start 1.4 1)
+		(end -1.4 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88719f13-c132-4712-96e9-507fc1a524a8")
+	)
+	(fp_line
+		(start -1 -0.75)
+		(end -1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b7a9b7e-a4a3-4e3d-8bd9-560dc889774f")
+	)
+	(fp_line
+		(start -1 0.75)
+		(end 1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "981290d2-ae12-49b5-95b6-230c0df86d34")
+	)
+	(fp_line
+		(start 1 -0.75)
+		(end -1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bc9fe90-8f1f-4aec-bd83-ea81b0421158")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end 1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfcef016-1bf5-4158-8a79-72d38a522877")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(uuid "06665bf8-cef1-4e75-8d5b-1537b3c1b090")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 -0.5 90)
+		(size 0.31 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00d0e15d-4569-41df-9167-6aaf9131de2d")
+	)
+	(pad "2" smd rect
+		(at -0.9 0.5 270)
+		(size 0.31 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57fde14d-d2e1-4d08-ba9f-1738d9bec6a3")
+	)
+	(pad "3" smd custom
+		(at 0 0 270)
+		(size 1.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.155 -0.475)
+				(end 0.155 -1.15)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bad05910-5e51-494c-b0a5-08a02407855e")
+	)
+	(group ""
+		(uuid "97123a16-6ea0-45c6-867d-5f8a80b32e89")
+		(members "0bc9fe90-8f1f-4aec-bd83-ea81b0421158" "981290d2-ae12-49b5-95b6-230c0df86d34"
+			"9b7a9b7e-a4a3-4e3d-8bd9-560dc889774f" "dfcef016-1bf5-4158-8a79-72d38a522877"
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_DFN1006-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
