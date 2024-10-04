@@ -59,7 +59,7 @@ outputs:
       use_aux_axis_as_origin: false
       zeros_format: SUPPRESS_LEADING
 
-  - name: compress
+  - name: compress - pcbway
     type: compress
     dir: fab/pcbway
     options:

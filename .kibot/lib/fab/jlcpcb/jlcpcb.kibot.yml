@@ -1,0 +1,71 @@
+outputs:
+  - name: gerbers - jlcpcb
+    type: gerber
+    dir: fab/jlcpcb
+    options:
+      # general
+      create_gerber_job_file: false
+      plot_sheet_reference: false
+      subtract_mask_from_silk: true
+      use_gerber_net_attributes: false
+      use_gerber_x2_attributes: false
+      use_protel_extensions: true
+      disable_aperture_macros: false
+      custom_reports: []
+      # dnf_filter: '_null'
+      # edge_cut_extension: ''
+      # exclude_edge_layer: true
+      # force_plot_invisible_refs_vals: false
+      # gerber_job_file: '%f-%i%I%v.%x'
+      gerber_precision: 4.6
+      # inner_extension_pattern: ''
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      # pre_transform: '_null'
+      tent_vias: true
+      uppercase_extensions: false
+      # use_aux_axis_as_origin: false
+      # variant: ''
+
+    layers:
+      - copper
+      - Edge.Cuts
+      - F.Paste
+      - B.Paste
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+
+  - name: drill - jlcpcb
+    type: excellon
+    dir: fab/jlcpcb
+    options:
+      metric_units: true
+      #mirror_y_axis:
+      #output: '%f-%i%I%v.%x'
+      pth_and_npth_single_file: false
+      #dnf_filter: '_null'
+      #left_digits: 
+      map: gerber
+      minimal_header: false
+      #npth_id:
+      #pre_transform: '_null'
+      #pth_id:
+      #report: ''
+      #right_digits:
+      route_mode_for_oval_holes: false
+      use_aux_axis_as_origin: false
+      #variant: ''
+      zeroes_format: 'DECIMAL_FORMAT'
+
+  - name: compress - jlcpcb
+    type: compress
+    dir: fab/jlcpcb
+    options:
+      format: ZIP
+      output: "%f-%r-fab-jlcpcb.%x"
+      files:
+        - filter: "^(?!.*(gbrjob|txt)$).*$" # everything but *.gbrjob and *.txt
+          source: fab/jlcpcb/*
+          dest: .

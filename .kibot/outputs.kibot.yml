@@ -25,3 +25,4 @@ import:
   - file: lib/3d/render.kibot.yml
   - file: lib/3d/step.kibot.yml
   - file: lib/fab/pcbway/pcbway.kibot.yml
+  - file: lib/fab/jlcpcb/jlcpcb.kibot.yml
