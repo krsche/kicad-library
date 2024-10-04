@@ -2,8 +2,8 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: false
-  run_drc: false
+  erc: false
+  drc: false
   check_zone_fills: false
   fill_zones: false
   update_xml: true
