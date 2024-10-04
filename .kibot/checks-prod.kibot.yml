@@ -1,12 +1,13 @@
 kibot:
-  version: 2
+  version: 1
 
 preflight:
   erc: true
-  drc: true
+  drc:
+    enabled: true
+    ignore_unconnected: false
   check_zone_fills: true
   fill_zones: true
-  ignore_unconnected: false
   set_text_variables:
     - variable: title
       command: "echo $GITHUB_REPOSITORY"

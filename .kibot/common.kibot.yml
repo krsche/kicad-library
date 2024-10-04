@@ -1,7 +1,7 @@
 kibot:
-  version: 2
+  version: 1
 
-preflight:
+# preflight:
   # filters:
   #   - error:
   #     error_number:
